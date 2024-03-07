@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    letter-spacing: 0.05rem;
+    word-spacing: 0.2rem;
+    font-family:cursive;
+    font-size: 45px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(163, 227, 36);
+}
+.main label{
+    font-weight: bold;
+    padding-left: 1rem;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main input{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-left: 1rem;
+    width: 12rem;
+    height: 2rem;
+}
+.btn{
+    border-radius: 7px;
+    border: none;
+    background-color: greenyellow;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.3rem 0.8rem;
+    margin-left: 1rem;
+}
+.btn1{
+    height: 30px;
+    border-radius: 7px;
+    /* border: none; */
+    background-color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    padding-inline:0.5rem;
+    margin-left: 1rem;
+}
+.btn:hover{
+    transform: scale(1.02);
+}
+.ptag{
+    padding-top: 0.5rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+.div_style{
+    padding-top: 1rem;
+    display: flex;
+}
+.create_div{
+    display: inline-block;
+    height: 130px;
+    margin: 2rem 0rem 0rem 10rem;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 250px;
+    background-color: black;
+    color: white;
+}
