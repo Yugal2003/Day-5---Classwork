@@ -9,8 +9,8 @@ const CourseCard = ({name,hour}) =>{
     return(
         <div className="create_div">
             <div>  
-                <p className="ptag">Subject Name : {name}</p>
-                <p className="ptag">Subject Hour : {hourValue}</p>
+                <p className="ptag">Subjected Name : {name}</p>
+                <p className="ptag">Subjected Hour : {hourValue}</p>
             </div>
 
             <div className="div_style">
